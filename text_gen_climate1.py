@@ -19,7 +19,7 @@ def run():
 	attention_mask=inputs["attention_mask"],
 	do_sample=True,
 	# Change max_length to be article length
-	max_length=2000,
+	max_length=250,
 	temperature=0.8,
 	use_cache=True,
 	top_p=0.9
