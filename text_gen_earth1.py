@@ -9,7 +9,7 @@ print("Model Loaded..!")
 start_time = time.time()
 
 #Change input text to be the stem of the misinfo article/paragraph
-input_text = "The Earth is a flat disk centered at the North Pole."
+input_text = "Despite what NASA tells us, the Earth is a flat disk centered at the North Pole."
 inputs = tokenizer(input_text, return_tensors="pt")
 input_ids = inputs["input_ids"]
 
