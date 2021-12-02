@@ -9,7 +9,7 @@ print("Model Loaded..!")
 start_time = time.time()
 
 #Change input text to be the stem of the misinfo article/paragraph
-input_text = "There is no evidence that CO2 emissions are the dominant factor in climate change."
+input_text = "There is no evidence that CO2 emissions from humans are a dominant factor in climate change."
 inputs = tokenizer(input_text, return_tensors="pt")
 input_ids = inputs["input_ids"]
 
